@@ -1,18 +1,64 @@
 body{
     color: rgb(255, 153, 1);
-    background-color: rgb(255, 255, 255);
-    font-size: 2rem;
+    background-color: rgb(255, 240, 200);
+    font-size: 1rem;
+    text-align: center;
+   
+}
+h1{
+    color: rgb(210, 70, 0);
+    font-size: 4rem;
 }
 .mypages{
-    margin: 2px;
-    padding: 2rem;
+ padding:2px ;
     font-size: 1rem;
+    background-color: rgb(253, 255, 232); 
+    text-align: center;
+}
+.item1{
+    padding:2rem ;
     text-decoration:none;
 }
-.stewie{
-    width:300px ;
+.item1:hover {
+    color: rgb(255, 153, 1);
+}
+.item2{
+    padding:2rem ;
+    text-decoration:none;
+}
+.item2:hover {
+    color: rgb(255, 153, 1);
+}
+.text{ 
+       font-size: 25px;
+    padding: 2rem;
+    width:790px;
+    height: auto;
+    text-align: justify;
+    margin-left: 3rem;
+  }
+  .stewie{
+    width:190px ;
     height:auto ;
-}
-.p{
-    ;
-}
+   margin-left: 15px;
+   margin-right:10px ;
+   float:left;
+  }
+  .text2{
+    font-size: 25px;
+    padding: 2rem;
+    width:790px;
+    height: auto;
+    text-align: justify;
+    margin-left: 30rem;
+  }
+  .footer{
+    margin-bottom: 50px;
+  }
+  .peter{
+    width:190px ;
+    height:auto ;
+   margin-left: 15px;
+   margin-right:10px ;
+   float:left;
+  }

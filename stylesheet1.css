@@ -1,7 +1,48 @@
 body{
     background-color: rgb(26, 26, 26);
 color: rgb(138, 138, 138);
+text-align: center;
+font-size: 2rem;
 }
 .pages{
-    padding: 2rem;
+    padding:2px ;
+    font-size: 1rem;
+    background-color: rgb(253, 255, 232); 
 }
+.image{
+   text-align: center;
+}
+.item1{
+    padding:2rem ;
+    text-decoration:none;
+}
+.item1:hover {
+    color: rgb(255, 153, 1);
+}
+.item2{
+    padding:2rem ;
+    text-decoration:none;
+}
+.item2:hover {
+    color: rgb(255, 153, 1);
+}
+@keyframes mytitle {
+    from {color: rgb(0, 0, 0);}
+    to {color: rgb(255, 255, 255);}
+  }
+
+@keyframes mytitle2 {
+    from {width: 0px;}
+    to {width:1505px;}
+  }
+  .title{
+    animation: mytitle2;
+    animation-duration:2s ;
+  }
+  .image{
+ width:200 ;
+ height: auto;
+  }
+  .footer{
+    font-size: 1rem;
+  }
